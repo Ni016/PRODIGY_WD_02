@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    font-size: 2.5rem;
+    padding-top: 0px;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+
+}
+body{
+    background-image: url(aesthetic-study-timer.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+
+}
+
+.container {
+    background-color: rgb(243, 207, 149);
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.338);
+
+
+}
+
+.timer-display{
+    position: relative;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    left: 4%;
+    padding: 40px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(65, 5, 145, 0.25);
+}
+
+.text-with-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: rgb(251, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: rgb(81, 255, 0);
+}
+
+.buttons button:nth-last-child(1){
+    background-color: rgb(0, 80, 252);
+}
+
+.buttons button:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.25);
+}
