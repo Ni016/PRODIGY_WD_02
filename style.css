@@ -45,7 +45,7 @@ body{
 .timer-display{
     position: relative;
     width: 92%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(251, 227, 188);
     left: 4%;
     padding: 40px;
     display: flex;
@@ -73,7 +73,7 @@ body{
     width: 120px;
     height: 45px;
     background-color: rgb(251, 0, 0);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
     font-size: 20px;
     border: none;
@@ -83,7 +83,7 @@ body{
 }
 
 .buttons button:nth-last-child(2) {
-    background-color: rgb(81, 255, 0);
+    background-color: rgb(132, 8, 232);
 }
 
 .buttons button:nth-last-child(1){
